@@ -6,55 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/header-footer.css"/>
     <link rel="stylesheet" href="css/principal.css"/>
 </head>
 
 <body>
-  <header>
-    <img src="img/logo.png" alt="logo_medsoft">
-    <nav>
-      <ul>
-        <li><a href="./medicao.html">Medição</a></li>
-        <li><a href="./diretrizes.html">Diretrizes</a></li>
-        <li><a href="./objetivos.html">Objetivos</a></li>
-        <li><a href="./indicadores.html">Indicadores</a></li>
-        <li><a href="./lexicos.html">Léxicos</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <div class="search">
-    <input type="text" placeholder="Pesquisar projeto">
-    <img src="img/lupa.png">
-  </div>
-
-  <main>
-    <div class="andamento">
-      <h3>PROJETOS EM ANDAMENTO</h3>
-      <table id="andamento">
-
-      </table>
+  <div class="container">
+    <header>
+      <img src="img/logo.png" alt="logo_medsoft">
+      <nav>
+        <ul>
+          <li><a href="./medicao.html">Medição</a></li>
+          <li><a href="./diretrizes.html">Diretrizes</a></li>
+          <li><a href="./objetivos.html">Objetivos</a></li>
+          <li><a href="./indicadores.html">Indicadores</a></li>
+          <li><a href="./lexicos.html">Léxicos</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="search">
+      <input type="text" placeholder="Pesquisar projeto">
+      <button><img src="img/lupa.png"></button>
     </div>
-    <div class="concluidos">
-        <h3>PROJETOS CONCLUÍDOS</h3>
-        <table id="concluidos">
-            <tr>
+
+    <main>
+      <div class="andamento">
+        <h3>PROJETOS EM ANDAMENTO</h3>
+        <table id="andamento">
+          <tr>
+            <th>AÇÃO</th>
+            <th>NOME</th>
+        </tr>
+        <tr>
+            <td><a href="/projeto/projetoEdit.html"><img src="img/lapis.png" class="icon"/></a><img src="img/lixeira.png" class="icon"/></td>
+            <td>Projeto 1</td>
+        </tr>
+        <tr>
+          <td><a href="/projeto/projetoEdit.html"><img src="img/lapis.png" class="icon"/></a><img src="img/lixeira.png" class="icon"/></td>
+          <td>Projeto 2</td>
+        </tr>
+        <tr>
+          <td><a href="/projeto/projetoEdit.html"><img src="img/lapis.png" class="icon"/></a><img src="img/lixeira.png" class="icon"/></td>
+          <td>Projeto 3</td>
+        </tr>
+        <tr>
+          <td><a href="/projeto/projetoEdit.html"><img src="img/lapis.png" class="icon"/></a><img src="img/lixeira.png" class="icon"/></td>
+          <td>Projeto 4</td>
+        </tr>
+        </table>
+        <div id="criar">
+            <button class="botao"><a href="/projeto/projetoEdit.html">Criar Novo</a></button>
+        </div>
+      </div>
+      <div class="concluidos">
+          <h3>PROJETOS CONCLUÍDOS</h3>
+          <table id="concluidos">
+              <tr>
                 <th>AÇÃO</th>
                 <th>NOME</th>
-            </tr>
-            <tr>
-                <td><img src="img/lapis.png"/><img src="img/lixeira.png"/></td>
+              </tr>
+              <tr>
+                <td><button class="botao"><a href="/projeto/projeto.html">Visualizar</a></button></td>
                 <td>Projeto 1</td>
-            </tr>
-        </table>
-    </div>
-  </main>
+              </tr>
+              <tr>
+                <td><button class="botao"><a href="/projeto/projeto.html">Visualizar</a></button></td>
+                <td>Projeto 2</td>
+              </tr>
+              <tr>
+                <td><button class="botao"><a href="/projeto/projeto.html">Visualizar</a></button></td>
+                <td>Projeto 3</td>
+              </tr>
+              <tr>
+                <td><button class="botao"><a href="/projeto/projeto.html">Visualizar</a></button></td>
+                <td>Projeto 4</td>
+              </tr>
+          </table>
+      </div>
+    </main>
 
-  <footer>
-
-  </footer>
-
+    <footer>
+      <p><br><br>MEDSoft © 2022</p>
+    </footer>
+  </div>
 </body>
 
 </html>

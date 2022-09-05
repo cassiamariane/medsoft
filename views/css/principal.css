@@ -1,0 +1,114 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    padding: 5px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid #000;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #12333E;
+    margin-right: 25px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.search input{
+    width: 40%;
+    padding: 10px;
+    background-color: #c4c4c4;
+}
+
+.search img {
+    max-width: 20px;
+    float: left;
+}
+
+.search button{
+    padding: 8px;
+    float: left;
+}
+
+.icon{
+    max-width: 25px;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: 1px collapse #12333E;
+    width: 100%;
+}
+
+td, th{
+    padding: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+tr{
+    background-color: #12333E;
+}
+
+#criar{
+    background-color: #12333E;
+    text-align: center;
+    padding: 10px;
+}
+
+.botao{
+    background-color: #c4c4c4;
+    border-radius: 5px;
+    color: #12333E;
+}
+
+footer{
+    background-color: #12333E;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 20%;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+}
+
+.titulo{
+    background-color: #12333E;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
