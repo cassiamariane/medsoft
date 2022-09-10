@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -133,7 +140,6 @@ footer {
   align-items: center;
   justify-content: center;
   min-height: 12vh;
-  gap: 5px;
 }
 
 .titulo {
