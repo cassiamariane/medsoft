@@ -89,6 +89,14 @@ th {
   background-color: #12333e;
 }
 
+.criar {
+  background-color: #12333e;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #12333e;
+  border-radius: 5px;
+}
+
 .botao,
 .botao a {
   background-color: #c4c4c4;
@@ -179,8 +187,7 @@ input[type="text"] {
   height: 25px;
 }
 
-button[type="submit"],
-.criar {
+button[type="submit"] {
   width: 100px;
   height: 20px;
   border-radius: 5px;
@@ -189,8 +196,7 @@ button[type="submit"],
   background-color: #c4c4c4;
 }
 
-button[type="submit"]:hover,
-.criar {
+button[type="submit"]:hover {
   color: #c4c4c4;
   background-color: #215161;
   cursor: pointer;
