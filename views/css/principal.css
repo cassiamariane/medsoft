@@ -145,10 +145,9 @@ footer {
 .formIndicadores {
   background-color: #12333e;
   color: #fff;
-  max-width: 28%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  max-width: 50%;
+  margin: 0 auto;
   padding: 30px;
   border-radius: 10px;
   display: flex;
@@ -179,8 +178,7 @@ input[type="text"] {
   height: 25px;
 }
 
-button[type="submit"],
-.criar {
+button[type="submit"] {
   width: 100px;
   height: 20px;
   border-radius: 5px;
