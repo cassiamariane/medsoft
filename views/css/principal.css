@@ -28,7 +28,7 @@ header img {
   margin-left: 10%;
 }
 
-.descricao p{
+.descricao p {
   font-size: 24px;
 }
 
@@ -125,10 +125,11 @@ footer {
   background-color: #12333e;
   text-align: center;
   color: #fff;
-  padding: 10px 0px;
+  padding: 10px;
 }
 
 /*Editar/Cadastrar*/
+
 .form {
   background-color: #12333e;
   color: #fff;
