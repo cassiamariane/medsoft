@@ -2,159 +2,51 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
-    <link rel="stylesheet" href="../css/projeto.css" />
-    <link rel="stylesheet" href="../css/principal.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto</title>
+  <link rel="stylesheet" href="../css/projeto.css" />
+  <link rel="stylesheet" href="../css/principal.css" />
+  <link rel="stylesheet" href="../css/view.css" />
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <img src="../img/logo.png" alt="logo_medsoft">
-            <nav>
-                <ul>
-                    <li><a href="./medicao.html">Medição</a></li>
-                    <li><a href="./diretrizes.html">Diretrizes</a></li>
-                    <li><a href="./objetivos.html">Objetivos</a></li>
-                    <li><a href="./indicadores.html">Indicadores</a></li>
-                    <li><a href="./lexicos.html">Léxicos</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+      <img src="../img/logo.png" alt="logo_medsoft">
+      <nav>
+        <ul class="navlist">
+          <li><a href="/views/index.html">PROJETOS</a></li>
+          <li><a href="">SOBRE</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <div class="titulo">
-            <p>NOME DO PROJETO</p>
-        </div>
-
-        <main>
-            <div class="descricao">
-                <h2>Descrição</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                    pretium felis justo, in volutpat est facilisis id. Pellentesque
-                    maximus nunc at lorem varius, ac tristique orci efficitur. Mauris
-                    auctor purus sed tortor maximus, mollis elementum sapien
-                    pharetra.</p>
-            </div>
-            <div class="tabelas">
-                <h3 class="titulotabela">PROPÓSITOS DE MEDIÇÃO</h3>
-                <table id="propositos">
-                    <tr>
-                        <th>ID</th>
-                        <th>NOME</th>
-                    </tr>
-                    <tr>
-                        <td><a href="/medicao/medicaoView.html">P01</a></td>
-                        <td>Propósito 1</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/medicao/medicaoView.html">P02</a></td>
-                        <td>Propósito 2</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/medicao/medicaoView.html">P03</a></td>
-                        <td>Propósito 3</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/medicao/medicaoView.html">P04</a></td>
-                        <td>Propósito 4</td>
-                    </tr>
-                </table>
-                <div id="criar">
-                    <button class="botao"><a href="/medicao/medicao.html">Gerenciar</a></button>
-                </div>
-
-                <h3 class="titulotabela">DIRETRIZES</h3>
-                <table id="diretrizes">
-                    <tr>
-                        <th>ID</th>
-                        <th>NOME</th>
-                    </tr>
-                    <tr>
-                        <td><a href="/diretrizes/diretrizesView.html">D01</a></td>
-                        <td>Diretriz estratégica organizacional 1</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/diretrizes/diretrizesView.html">D02</a></td>
-                        <td>Diretriz estratégica organizacional 2</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/diretrizes/diretrizesView.html">D03</a></td>
-                        <td>Diretriz estratégica organizacional 3</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/diretrizes/diretrizesView.html">D04</a></td>
-                        <td>Diretriz estratégica organizacional 4</td>
-                    </tr>
-                </table>
-                <div id="criar">
-                    <button class="botao"><a href="/diretrizes/diretrizes.html">Gerenciar</a></button>
-                </div>
-
-                <h3 class="titulotabela">OBJETIVOS</h3>
-                <table id="objetivos">
-                    <tr>
-                        <th>ID</th>
-                        <th>NOME</th>
-                    </tr>
-                    <tr>
-                        <td><a href="/objetivos/objetivosView.html">O1</a></td>
-                        <td>Objetivo 1</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/objetivos/objetivosView.html">O2</a></td>
-                        <td>Objetivo 2</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/objetivos/objetivosView.html">O3</a></td>
-                        <td>Objetivo 3</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/objetivos/objetivosView.html">O4</a></td>
-                        <td>Objetivo 4</td>
-                    </tr>
-                </table>
-                <div id="criar">
-                    <button class="botao"><a href="/objetivos/objetivos.html">Gerenciar</a></button>
-                </div>
-
-                <h3 class="titulotabela">INDICADORES</h3>
-                <table id="indicadores">
-                    <tr>
-                        <th>ID</th>
-                        <th>NOME</th>
-                    </tr>
-                    <tr>
-                        <td><a href="/indicadores/indicadoresView.html">I01</a></td>
-                        <td>Indicador 1</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/indicadores/indicadoresView.html">I02</a></td>
-                        <td>Indicador 2</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/indicadores/indicadoresView.html">I03</a></td>
-                        <td>Indicador 3</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/indicadores/indicadoresView.html">I04</a></td>
-                        <td>Indicador 4</td>
-                    </tr>
-                </table>
-                <div id="criar">
-                    <button class="botao"><a href="/indicadores/indicadores.html">Gerenciar</a></button>
-                </div>
-            </div>
-
-            <button id="resultado"><img src="/img/olho.png">Visualizar Resultado</button>
-        </main>
-
-        <footer>
-            <p><br><br>MEDSoft © 2022</p>
-        </footer>
+    <div class="titulo">
+        <p>NOME DO PROJETO</p>
     </div>
+
+    <main>
+        <div class="descricao">
+            <h2>Descrição</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pretium felis justo, in volutpat est facilisis id. Pellentesque
+                maximus nunc at lorem varius, ac tristique orci efficitur. Mauris
+                auctor purus sed tortor maximus, mollis elementum sapien
+                pharetra.</p>
+
+            <h2>Propósito de Medição</h2>
+            <a href="/views/medicao/medicaoView.html"><button class="btnview">Nome do Propósito</button></a>
+            <a href="/views/medicao/medicaoEdit.html"><button class="btnview">+ Adicionar Propósito</button></a>   
+        </div>
+        <a href="/views/resultadoView.html"><button class="btnview" id="centro"><img src="../img/olho.png">Visualizar Resultado</button></a>
+        <a href="/views/index.html"><button class="btnview" id="centro">Voltar</button></a>
+    </main>
+    
+  </div>
+  <footer>
+      <p>MEDSoft © 2022</p>
+    </footer>
 </body>
 
 </html>
