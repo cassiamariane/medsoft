@@ -129,17 +129,6 @@ footer {
 }
 
 /*Editar/Cadastrar*/
-
-h2 {
-  background-color: #12333e;
-  color: #fff;
-  height: 40px;
-  text-align: center;
-  font-size: 26px;
-  margin-bottom: 50px;
-  padding-top: 13px;
-}
-
 .form {
   background-color: #12333e;
   color: #fff;
