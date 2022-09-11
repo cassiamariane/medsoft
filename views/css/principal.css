@@ -28,6 +28,10 @@ header img {
   margin-left: 10%;
 }
 
+.descricao p{
+  font-size: 24px;
+}
+
 .navlist {
   list-style: none;
   display: flex;
@@ -85,7 +89,7 @@ th {
   background-color: #12333e;
 }
 
-#criar {
+.criar {
   background-color: #12333e;
   text-align: center;
   padding: 10px;

@@ -13,6 +13,11 @@
       color: #fff;
   }
   
-  #centro{
-    margin: 0 auto;
-  }
+.centro{
+  margin: 0 auto 10px;
+}
+
+.centro img{
+  max-width: 25px;
+  float:left;
+}
