@@ -146,3 +146,96 @@ footer {
   background-color: #12333e;
   text-align: center;
 }
+
+/*Editar/Cadastrar*/
+
+h2 {
+  background-color: #12333e;
+  color: #fff;
+  height: 40px;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 50px;
+  padding-top: 13px;
+}
+
+.form {
+  background-color: #12333e;
+  color: #fff;
+  width: 25%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.formIndicadores {
+  background-color: #12333e;
+  color: #fff;
+  max-width: 28%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input[type="text"] {
+  height: 25px;
+}
+
+button[type="submit"] {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  color: #12333e;
+  background-color: #c4c4c4;
+}
+
+button[type="submit"]:hover {
+  color: #c4c4c4;
+  background-color: #215161;
+  cursor: pointer;
+}
+
+/*Sobre*/
+
+.sobre h1,
+.sobre p {
+  color: #12333e;
+}
+
+.sobre {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.containersobre {
+  min-height: 100vh;
+}
