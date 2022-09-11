@@ -89,14 +89,6 @@ th {
   background-color: #12333e;
 }
 
-.criar {
-  background-color: #12333e;
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #12333e;
-  border-radius: 5px;
-}
-
 .botao,
 .botao a {
   background-color: #c4c4c4;
@@ -104,6 +96,11 @@ th {
   color: #12333e;
   border: none;
   padding: 7px;
+}
+
+.botao:hover {
+  background-color: #12333e;
+  color: #c4c4c4;
 }
 
 a {
@@ -142,6 +139,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .formIndicadores {
@@ -156,6 +154,7 @@ footer {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
+  margin-top: 50px;
   gap: 30px;
 }
 
@@ -180,7 +179,8 @@ input[type="text"] {
   height: 25px;
 }
 
-button[type="submit"] {
+button[type="submit"],
+.criar {
   width: 100px;
   height: 20px;
   border-radius: 5px;
@@ -189,7 +189,8 @@ button[type="submit"] {
   background-color: #c4c4c4;
 }
 
-button[type="submit"]:hover {
+button[type="submit"]:hover,
+.criar {
   color: #c4c4c4;
   background-color: #215161;
   cursor: pointer;
