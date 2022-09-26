@@ -1,0 +1,23 @@
+.descricao{
+    margin-bottom: 50px;
+  }
+
+.btnview{
+    background-color: #12333E;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #12333E;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      color: #fff;
+  }
+  
+.centro{
+  margin: 0 auto 10px;
+}
+
+.centro img{
+  max-width: 25px;
+  float:left;
+}
